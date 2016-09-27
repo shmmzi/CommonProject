@@ -1,0 +1,25 @@
+//
+//  CommonProject-Prefix.pch
+//  CommonProject
+//
+//  Created by xhw on 16/7/14.
+//  Copyright © 2016年 xxx. All rights reserved.
+//
+
+#ifndef CommonProject_Prefix_pch
+#define CommonProject_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "XX_Enum.h"
+#import "XX_AppMacros.h"
+#import "XX_RequestMacros.h"
+#import "XX_ThirdPartMacros.h"
+#import "XX_NotificationMacros.h"
+#import "XX_UserDefaultMacros.h"
+
+#import "SVProgressHUD.h"
+#import "MBProgressHUD.h"
+
+#endif /* CommonProject_Prefix_pch */
